@@ -1,0 +1,81 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+.container{
+    background: url(./images/background.jpg);
+    width: 100%;height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+/*style for sadbar*/
+.sadbar{
+    width: 100px;height: 100vh;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*Style for logo in sadbar*/
+.sadbar .logo{
+  width: 100%;height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*style for icon in sadbar*/
+.sadbar ul{
+    width: 100%;height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.sadbar ul li{
+    list-style: none;
+}
+/*style for img icon in sadbar */
+.sadbar ul li img{
+    transition: all 1s ease-in-out;
+}
+/*style for img icon in sadbar on hover */
+.sadbar ul li img:hover{
+   width: 140%;
+}
+/*style for content*/
+
+.content{
+    width: calc(100% - 100px);
+    height: 300px;
+    position:absolute; 
+    left:100px; top:20px;
+    z-index: 10;
+    text-align: center;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/*style for h1 in content*/
+.content h1{
+    font-size: 100px;
+}
+/*style for p in content*/
+.content p{
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+/*style for  btn content*/
+.content span{
+    background-color: #0023ff;color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    cursor:pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+/*style for moblie*/
+@media only screen and (max-width: 600px) {
+    .content h1{
+        font-size: 70px;
+    }
+    .content p{
+        font-size: 10px;
+    }
+
+}
