@@ -23,5 +23,6 @@ pc
 
 Moblie
 
-![OLIOS (1)](https://user-images.githubusercontent.com/75854041/116799221-0e1c0880-ab00-11eb-8a1e-3baace76ae70.png)
+
+![OLIOS (moblie)](https://user-images.githubusercontent.com/75854041/116825898-01e48980-ab9a-11eb-8270-de4488c781f2.png)
 
